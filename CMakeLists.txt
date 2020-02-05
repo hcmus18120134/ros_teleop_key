@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(car_control_console)
+project(ros_teleop_key)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -196,5 +196,5 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
-add_executable(car_control_console src/main.cpp)
-target_link_libraries(car_control_console ${catkin_LIBRARIES})
+add_executable(ros_teleop_key src/main.cpp)
+target_link_libraries(ros_teleop_key ${catkin_LIBRARIES})
